@@ -1,9 +1,46 @@
 body{
     padding: 100px;
+    background-image: url(images/bg.jpg);
+}
+#login-area{
+    color: white;
 }
 .submit-area{
     margin-top: 50px;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgba(28, 70, 28, 0.726);
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.total{
+    background-color: orange;
+}
+.status{
+    margin: 0px 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.depo-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    background-color: lightgreen;
+}
+.with-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    background-color: lightcoral;
 }
