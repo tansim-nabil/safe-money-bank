@@ -11,6 +11,8 @@ body{
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     background-color: rgba(28, 70, 28, 0.726);
+    width: 50%;
+    margin: auto;
 }
 #transaction-area{
     display: none;
@@ -35,12 +37,18 @@ body{
     padding: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.76);
 }
 .with-area{
     margin-top: 50px;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    background-color: lightcoral;
+    background-color: rgba(236, 84, 84, 0.76);
+}
+.logoutBtn{
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-top: 50px;
 }

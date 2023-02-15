@@ -27,34 +27,35 @@
             <div class="col-md-3">
                 <div class="deposit status">
                     <h5>Deposit</h5>
-                    <h1>$ 00</h1>
+                    <h1>$ <span id="currentDeposit">00</span></h1>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="withdraw status">
                     <h5>Withdraw</h5>
-                    <h1>$ 00</h1>
+                    <h1>$ <span id="currentWithdraw">00</span></h1>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="total status">
                     <h5>Total</h5>
-                    <h1>$ 1240</h1>
+                    <h1>$ <span id="totalBalance">1240</span></h1>
                 </div>
             </div>
         </div>
         <div class="row d-flex justify-content-around">
             <div class="col-md-5 depo-area">
                 <h2>Deposit</h2>
-                <input type="text" class="form-control" placeholder="$ Deposit amount"><br>
-                <button class="btn btn-danger">Deposit</button>
+                <input type="number" id="depositAmount" class="form-control" placeholder="$ Deposit amount"><br>
+                <button id="depositButton" class="btn btn-danger">Deposit</button>
             </div>
             <div class="col-md-5 with-area">
                 <h2>Withdraw</h2>
-                <input type="text" class="form-control" placeholder="$ Withdraw amount"><br>
-                <button class="btn btn-success">Withdraw</button>
+                <input type="number" id="withdrawAmount" class="form-control" placeholder="$ Withdraw amount"><br>
+                <button id="withdrawButton" class="btn btn-success">Withdraw</button>
             </div>
         </div>
+        <button id="logoutButton" class="btn btn-success logoutBtn">Logout</button>
     </div>
     
     
